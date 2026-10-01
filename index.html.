@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile & Portfolio Archive</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 680px;
+      margin: 50px auto;
+      padding: 0 20px;
+      color: #222;
+      line-height: 1.6;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+      border-bottom: 1px solid #eaeaea;
+      padding-bottom: 12px;
+    }
+    nav a { color: #0056b3; text-decoration: none; font-size: 0.95rem; }
+    nav a:hover { text-decoration: underline; }
+    h1 { font-size: 2rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    h2 { font-size: 1.25rem; margin-top: 2rem; border-bottom: 1px solid #f0f0f0; padding-bottom: 6px; }
+    .subtitle { color: #666; margin-bottom: 2rem; }
+    ul.item-list { list-style: none; padding: 0; }
+    ul.item-list li { margin-bottom: 1.5rem; }
+    a.project-link { font-weight: 600; color: #0056b3; text-decoration: none; font-size: 1.05rem; }
+    a.project-link:hover { text-decoration: underline; }
+    p.desc { margin: 4px 0 0 0; color: #555; font-size: 0.95rem; }
+    footer { margin-top: 4rem; border-top: 1px solid #eaeaea; padding-top: 1rem; font-size: 0.85rem; color: #666; }
+    footer a { color: #444; margin-right: 15px; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#news">News</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 id="about">Xuefen Mei</h1>
+    <p class="subtitle">Educator, Language Specialist & EdTech Creator</p>
+    
+    <p>
+      Working at the intersection of language instruction, educational technology, and digital learning design.
+    </p>
+
+    <h2 id="portfolio">Portfolio Archive</h2>
+    <p class="desc" style="margin-bottom: 1rem;">Product case studies, lesson frameworks, and digital learning tools.</p>
+    
+    <ul class="item-list">
+      <li>
+        <a class="project-link" href="#">AI & Digital Tools for Language Pedagogy</a>
+        <p class="desc">Designed instructional frameworks integrating digital AI design tools to enhance language comprehension and student engagement.</p>
+      </li>
+      <li>
+        <a class="project-link" href="#">Secondary Literature Comprehension Series</a>
+        <p class="desc">Developed interactive, multi-modal lesson frameworks centered on English literary classics for middle school education.</p>
+      </li>
+    </ul>
+
+    <h2 id="news">Recent Updates</h2>
+    <ul class="item-list">
+      <li>
+        <strong>2026-09:</strong> Completed secondary school teaching exchange and developed lesson frameworks in English and civics.
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <a href="mailto:contact@example.com">Email</a>
+    <a href="https://github.com">GitHub</a>
+    <a href="https://linkedin.com">LinkedIn</a>
+  </footer>
+
+</body>
+</html>
